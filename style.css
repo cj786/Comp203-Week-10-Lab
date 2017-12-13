@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+div{
+    height: 300px;
+}
+@media only screen and (min-width:350px){
+   .box1{ width: 100%;
+        font-size: 16px;
+       background-color: blue;
+    }
+
+
+   .box2{ width: 100%;
+       font-size: 16px;
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width:768px){
+   .box1{ width: 100%;
+        font-size: 16px;
+        background-color: white;
+    }
+
+
+   .box2{ width: 100%;
+       font-size: 16px;
+         background-color: white;
+    }
+}
+
+@media only screen and (min-width:1200px){
+   .box1{ width: 49%;
+        font-size: 20px;
+        display: inline-block;
+        background-color: white;
+    }
+
+
+   .box2{ width: 49%;
+       font-size: 20px;
+        display: inline-block;
+        background-color: white;
+    }
+}
+
